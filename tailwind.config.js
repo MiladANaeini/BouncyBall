@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{html,js}"],
-  theme: {
-    extend: {}
-  },
-  plugins: []
+export const content = [
+  "./index.html",
+  "./src/**/*.{js,jsx,ts,tsx}" // Add all the file extensions where Tailwind should look for class names
+];
+export const theme = {
+  extend: {}
 };
+export const plugins = [];
